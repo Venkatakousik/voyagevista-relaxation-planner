@@ -1,0 +1,5 @@
+CREATE TABLE test_connection (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    message VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

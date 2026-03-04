@@ -25,7 +25,7 @@ Thumbs.db
 # =========================
 # Application Local Config
 # =========================
-application-local.yml
+application-local.xml
 application-local.properties
 
 # =========================

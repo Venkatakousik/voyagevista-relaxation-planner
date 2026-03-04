@@ -74,9 +74,13 @@
 		
 				<!-- Source: https://mvnrepository.com/artifact/org.flywaydb/flyway-core -->
 		<dependency>
+    		<groupId>org.flywaydb</groupId>
+   			 <artifactId>flyway-core</artifactId>
+		</dependency>
+
+		<dependency>
 		    <groupId>org.flywaydb</groupId>
-		    <artifactId>flyway-core</artifactId>		   
-		    <scope>compile</scope>
+		    <artifactId>flyway-mysql</artifactId>
 		</dependency>
 		
 	</dependencies>
